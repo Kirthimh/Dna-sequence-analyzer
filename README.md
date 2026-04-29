@@ -1,35 +1,31 @@
-# DNA Sequence Analyzer
+# 🧬 DNA Sequence Analyzer
 
-## Objective
-Analyze DNA sequences from FASTA files and compute nucleotide composition and GC content.
+A Python-based bioinformatics tool that analyzes DNA sequences 
+from FASTA files.
 
-## Tools
-- Python
-
-## Workflow
-1. Read FASTA file from data/
-2. Extract DNA sequence
-3. Calculate:
-   - Sequence length
-   - Nucleotide counts (A, T, G, C)
-   - GC content
-4. Save results to results/output.txt
+## Features
+- ✅ Reads multiple sequences from FASTA files
+- ✅ Calculates sequence length
+- ✅ Nucleotide counts (A, T, G, C)
+- ✅ GC content percentage
+- ✅ AT/GC ratio
+- ✅ Reverse complement generation
+- ✅ Bar chart visualization
+- ✅ CSV and TXT output
 
 ## Project Structure
 ## How to Run
 
-Run the script using:
-```bash
-python src/analyzer.py
-
-
+### Install required library
+### Run the script
+## Sample Input
 ## Sample Output
-```text
-Sequence Length: 31  
-Nucleotide Counts: {'A': 8, 'T': 7, 'G': 8, 'C': 8}  
-GC Content: 51.61%
-
+## Tools Used
+- Python 3
+- Matplotlib
+- FASTA format processing
 
 ## Author
-
 Kirthi M Hangallmath
+Bioinformatics | Computational Biology
+Updated README with full project documentation
